@@ -1,0 +1,140 @@
+main{
+	position: relative;
+	top:60px;
+}
+.content-one{
+	width: 100%;
+}
+.content-portada{
+	width: 100%;
+	height:600px;
+	background-image: url(../img/tecISC.jpg);
+	background-position: center center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+@media screen and(max-width: 1500px){
+	.content-portada{
+		background-size: 2000px;
+	}
+}
+.content-item1{
+	width: 700px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 60px;
+}
+.content-item1 h4{
+	color: white;
+	font-size: 50px;
+	font-weight: 100;
+	font-family: Comic Sams MS;
+}
+.content-item1 h3{
+	color: white;
+	font-size: 60px;
+}
+.content-item1 h2{
+	color: white;
+	font-size: 40px;
+	font-weight: 100;
+}
+@media screen and(max-width: 800px){
+	.content-item1{
+		width:100%;
+	}
+}
+/*CONTENT TWO*/
+.content-two{
+	width: 100%;
+	padding: 40px;
+	background:#f2f2f2;
+}
+.content-details{
+	width: 80%;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.content-item2{
+	width:250px;
+	text-align: center;
+	margin: 20px;
+}
+.icon-gamepad, .icon-desktop-1, .icon-mobile-1{
+	color:#599E84;
+	font-size: 40px;
+}
+
+/*content three*/
+.content-three{
+	width: 100%;
+	background:#f7f7f7;
+	padding: 40px;
+}
+.content-module{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+.content-module h3{
+}
+.content-module img{
+	width: 400px;
+	height: 202px;
+	margin-top: 40px;
+	transition: all 300ms;
+
+}
+.content-module img:hover{
+	transform: rotate(-10deg);
+	transition: all 300ms;
+}
+
+/*Content for*/
+.content-for{
+	width: 100%;
+}
+.content-item3{
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+	padding: 40px;
+}
+.content-item3 h4{
+	text-align: center;
+	font-size: 20px;
+}
+.content-item3 p{
+	text-align: center;
+	margin-top: 20px;
+	color: #7a7a7a;
+	font-weight: 500;
+}
+.content-item3 img{
+	width: 100%;
+	margin-top: 30px;
+}
+
+/*content five*/
+
+.content-five{
+	width: 100%;
+	background: #599E84;
+}
+.content-item4 {
+	width: 90%;
+	max-width: 800px;
+	padding: 50px;
+	margin:auto;
+	color: white;
+	text-align: center;
+}
+.content-item4 h4{
+	font-size: 20px;
+}
+.content-item4 p{
+	margin-top: 20px;
+}

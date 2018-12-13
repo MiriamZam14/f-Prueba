@@ -1,0 +1,14 @@
+footer{
+	margin-top: 60px;
+	padding: 100px;
+	text-align: center;
+	background: #1e1e1e;
+}
+.icon-gplus, .icon-facebook, .icon-instagram{
+	color: #d1d1d1;
+	font-size: 40px;
+}
+.icon-gplus:hover, .icon-facebook:hover, .icon-instagram:hover{
+	color: #599E84;
+	cursor: pointer;
+}
