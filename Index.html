@@ -1,120 +1,110 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="es">
-<head>
-	<!-- cODIFICACIÒN  DE CARACTERES -->
-	<meta charset="UTF-8">
-
-	<!--viewPort -->
-	<meta name="viewPort"content="width=device-width, initial-scale=1.0, maximum-scale=1.0,
-	user-scalable=no"/>
-	<title>José Rebrindanard</title>
-	<!--añadiendo un favicon -->
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-
-	<!-- color de la aplicación-->
-	<meta name="theme-color" content="#FB314E"/>
-	<!-- pagina optimizada para movile -->
-	<meta name="MobileOptimized" content="width"/>
-	<!-- indicar que es una pwa-->
-	<meta name="HandheldFriendly" content="true"/>
-	<!--Metaetiquetas para que funcione en Apple -->
-	<meta name="apple-mobile-web-app-capable" content="yes"/>
-	<meta name="apple-mobile-web-app-status-bar-style"  content="black-translucent"/>
-	<!--icono para apple -->
-	<link rel="apple-touch-icon" href="img/favicon.png"/>
-	<!--splash screen apple-->
-	<link rel="apple-touch-startup-image" href="img/favicon.png"/>
-
-	<!-- Cargar el Manifiesto de configuración-->
-	 <link rel="manifest" href="manifest.json"/>
-	<!--cargando los estilos-->
-	<link rel="stylesheet" href="css/styles.css"/>
-
-	<!-- añadiendo la libreria jquery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-	<!-- script js para el suavizado al visitar los services-->
-	<script src="main.js"></script>
-</head>
-<body>
-		<header id="main-header">
-		<div class="container">
-			<div id="logo"> <h1>Rebrindanard</h1></div>
-			<div id="menu">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewPort"content="width=device-width, initial-scale=1.0, maximum-scale=1.0,
+		user-scalable=no"/>
+		<title> Pagina Web ISIC </title>
+		<link rel="shortcut icon" type="image/png" href="img/apple-icon-120x120.png">
+		<meta name="theme-color" content="#599E84"/>
+		<meta name="MobileOptimized" content="width"/>
+		<meta name="HandheldFriendly" content="true"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style"content="black-translucent"/>
+		<link rel="apple-touch-icon" href="img/apple-icon-120x120.png"/>
+		<link rel="apple-touch-startup-image" href="img/apple-icon-120x120.png"/>
+		<link rel="manifest" href="manifest.json"/>
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet"href="icons/css/fontello.css">
+		<link rel="stylesheet"href="css/menu.css">
+		<link rel="stylesheet" href="css/estilos_index.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<header>
+			<img src="img/logoISIC.jpeg" class="img-logo">
+			<input type="checkbox" id="check">
+			<label for="check" class="icon-th-list"></label>
+			<nav class="menu">
 				<ul>
-					<li><a href="#main-header">inicio</a></li>
-					<li><a href="#services">servicios</a></li>
-					<li><a href="#videos">videos</a></li>
-					<li><a href="#footer">contacto</a></li>
+					<li><a href="#"style="background:#599E84 ;color:white;">Inicio</a></li>
+					<li><a href="#">¿Quienes Somos?</a></li>
+					<li><a href="#">Noticias</a></li>
+					<li><a href="#">Contacto</a></li>
 				</ul>
-			</div>
-		</div>
-		</header>
-		<div class="clearfix"></>
-		<div id="slider">
-			<div class="container">
-				<h2>profesor y desarrollador web</h2>
-			</div>
-		</div>
-		<div class="container">
-			<div id="services">
-				<h2 class="subheader">Servicios</h2>
-
-				<div class="service">
-						<img src="img/1.png"/>
-						<h3>Desarrollo web</h3>
-						<p>Ofrecemos servicios de desarrollo web. Podemos hacer tu pagina brillar y ser la mejor</p>
-				</div>
-
-				<div class="service">
-						<img src="img/2.png"/>
-						<h3>Diseño web </h3>
-						<p>Diseño de sitios y aplicaciones web administrativas modernas. Usamos las mejores tecnologias para desarrollo, estamos certificados w3</p>
-				</div>
-
-				<div class="service">
-						<img src="img/3.png"/>
-						<h3>Mentoría</h3>
-						<p>Podemos ser un buen tutor y mentor para desarrollo</p>
+			</nav></header>
+		<main>
+			<div class="content-one">
+				<div class="content-portada">
+					<div class="content-item1">
+						<h4>Los buenos Ingenieros se miden en los malos momentos <h3>ISIC </h3></h4>
+						<h2>Solo Cierra y Reinicia</h2>
+					</div>
 				</div>
 			</div>
-		</div><!-- final de los servicios -->
-<!--- inicio de los videos-->
-<!-- aqui ponemos la regla de clearfix -->
-<div class="clearfix"></>
-	<div id="videos">
-		<div class="container">
-			<h2 class="subheader">Videos</h2>
-			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/qFjG6XHCKEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				<p>Shingeki nyo coidah</p>
-			</div><!-- aqui termina cada video-->
-
-			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/qFjG6XHCKEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				<p>Shingeki nyo coidah</p>
-			</div><!-- aqui termina cada video-->
-
-			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/qFjG6XHCKEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				<p>Shingeki nyo coidah</p>
-			</div><!-- aqui termina cada video-->
+			<div class="content-two">
+				<div class="content-details">
+					<div class="content-item2">
+						<label class="icon-gamepad"></label>
+						<h4>Games</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<div class="content-item2">
+						<label class="icon-desktop-1"></label>
+						<h4>Web</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<div class="content-item2">
+						<label class="icon-mobile-1"></label>
+						<h4>App's</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+				</div>
+			</div>
+			<div class="content-three">
+				<div class="content-module">
+					<h3>Noticias</h3>
+					<img src="img/delfinPro.jpg">
+					<img src="img/eneit.jpg">
+					<img src="img/isic1.jpg">
+				</div></div>
+			<div class="content-for">
+				<div class="content-item3">
+					<h4>¿Quienes Somos?</h4>
+					<p>La carrera de Ingeniería en Sistemas Computacionales ofrece las herramientas y la capacidad de afrontar el mundo actual y los conocimientos para forjar el futuro, permitiendo el desarrollo y la creación de nuevas aplicaciones o sistemas que puedan ser de ayuda para una empresa y la sociedad en general.</p>
+				</div>
+			</div>
+			<div class="content-five">
+				<div class="content-item4">
+					<h4>Contacto</h4>
+					<p>Carretera Uruapan-Carapan Km.31.5, Cherán,Michoacán 
+					Correo:its-purhepecha@its-purhepecha.edu.mx
+					Teléfonos: (443) 292 1023 y (443) 292 1026
+					</p>
+				</div>
+			</div>
+		</main>
+		<div class="content-six">
+			<div class="content-item5">
+				<h2>Videos, Audio y algo mas...</h2>
+					<video controls>
+						<source src="img/1088_2.mp4" type="video/mp4">
+					</video>
+					<p>                                          </p>
+					<audio controls>
+						<source src="img/audio.mpeg" type="audio/mpeg">
+					</audio>
+			</div>
 		</div>
-	</div><!-- final de los videos -->
-
-	<div class="clearfix"></>
-
-	<footer id="footer">
-		<div class="container">
-			<h2 class="subheader">Contacto</h2>
-			<p>Enviame un mensaje en cualquiera de estas redes sociales</p>
-			<ul id="networks">
-				<li><a href=""><img src="img/twitter.png"></a></li>
-				<li><a href=""><img src="img/facebook.png"></a></li>
-				<li><a href=""><img src="img/instagram.png"></a></li>
-			</ul>
-			<div class="clearfix"></>
-		</div>
-	</footer>
-</body>
+		<footer>
+			<a href="http://its-purhepecha.edu.mx"><label class="icon-gplus"></label></a>
+			<a href="https://www.facebook.com/profile.php?id=100012313422520&epa=SEARCH_BOX"><label class="icon-facebook"></label></a>
+			<label class="icon-instagram"></label>
+		</footer>
+	</body>
 </html>
