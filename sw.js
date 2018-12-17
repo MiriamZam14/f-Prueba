@@ -3,7 +3,7 @@ var UrlsToCache=[
   './',
   './css/estilos_index.css',
   './css/menu.css',
-  './css/footer.css'
+  './css/footer.css',
   './img/apple-icon-120x120.png',
   './img/audio.mpeg',
   './img/1088_2.mp4'
