@@ -138,3 +138,23 @@ main{
 .content-item4 p{
 	margin-top: 20px;
 }
+/*content six*/
+.content-six{
+	width: 100%;
+	background: #1e1e1e;
+}
+.content-item5{
+	width: 90%;
+	width: 90%;
+	max-width: 800px;
+	padding: 50px;
+	margin:auto;
+	color: white;
+	text-align: center;
+}
+.content-item5 h2{
+	font-size: 20px;
+}
+.content-item4 p{
+	margin-top: 20px;
+}
