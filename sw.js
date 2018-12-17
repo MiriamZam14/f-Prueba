@@ -25,7 +25,7 @@ var UrlsToCache=[
   './img/apple-icon.png',
   './img/ms-icon-150x150.png',
   './img/delfinPro.jpg',
-  './img/android-icon-96x96.png',
+  './img/android-icon-96x96.png'
 ];
 
 self.addEventListener('install',e=>{
